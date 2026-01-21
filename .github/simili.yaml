@@ -18,7 +18,7 @@ embedding:
     dimensions: 768
 
 defaults:
-  similarity_threshold: 0.82
+  similarity_threshold: 0.65
   max_similar_to_show: 5
   include_closed_issues: true
   closed_issue_weight: 0.9
@@ -29,7 +29,7 @@ repositories:
   - org: "Kavirubc"
     repo: "makerslab"
     enabled: true
-    similarity_threshold: 0.80
+    similarity_threshold: 0.65
 
 rate_limits:
   github_requests_per_second: 10
