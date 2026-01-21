@@ -14,8 +14,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Run Issue Intelligence Bot
-        uses: Kavirubc/gh-simili@v1
+      - name: Run Simili
+        uses: Kavirubc/gh-simili@v2
         with:
           config_path: .github/simili.yaml
         env:
