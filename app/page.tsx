@@ -137,7 +137,7 @@ export default async function Home() {
             {steps.map((step, index) => (
               <Card key={step} className="border-black/5">
                 <CardContent className="flex gap-4 p-5 items-center">
-                  <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-secondaryt text-sm font-semibold text-secondary-foreground">
+                  <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-secondary text-sm font-semibold text-secondary-foreground">
                     0{index + 1}
                   </div>
                   <p className="text-sm leading-7 text-muted-foreground">
@@ -213,13 +213,13 @@ export default async function Home() {
             </div>
             <div className="flex flex-col gap-3 sm:flex-row">
               <Link href="/register" className="block">
-                <BubbleUpButton className="w-full sm:w-auto text-nowrap text-center flex items-center justify-center">
+                <BubbleUpButton className="w-full sm:w-auto whitespace-nowrap text-center flex items-center justify-center">
                   Get Started
                 </BubbleUpButton>
               </Link>
               <Link
                 href="/explore"
-                className="inline-flex w-full text-nowrap items-center justify-center rounded-full border border-white/20 px-8 py-4 text-sm font-medium text-white transition-colors hover:bg-white/10 sm:w-auto"
+                className="inline-flex w-full whitespace-nowrap items-center justify-center rounded-full border border-white/20 px-8 py-4 text-sm font-medium text-white transition-colors hover:bg-white/10 sm:w-auto"
               >
                 Explore Projects
               </Link>
